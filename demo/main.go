@@ -6,8 +6,8 @@ import (
 	"flag"
 	"strings"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/taoh/gocelery"
+	log "github.com/sirupsen/logrus"
+	"github.com/blinkinglight/gocelery"
 )
 
 // Adder worker

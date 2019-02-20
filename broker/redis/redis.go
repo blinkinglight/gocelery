@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/taoh/gocelery/broker"
+	log "github.com/sirupsen/logrus"
+	"github.com/blinkinglight/gocelery/broker"
 
 	// redis broker
 	"github.com/garyburd/redigo/redis"

@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/taoh/gocelery/broker"
+	log "github.com/sirupsen/logrus"
+	"github.com/blinkinglight/gocelery/broker"
 
 	// ampq broker
 	"github.com/streadway/amqp"

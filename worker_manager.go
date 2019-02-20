@@ -10,10 +10,10 @@ import (
 	"syscall"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 	"github.com/go-errors/errors"
-	"github.com/taoh/gocelery/broker"
-	"github.com/taoh/gocelery/serializer"
+	"github.com/blinkinglight/gocelery/broker"
+	"github.com/blinkinglight/gocelery/serializer"
 )
 
 // WorkerManager starts and stop worker jobs

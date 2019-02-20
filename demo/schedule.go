@@ -3,8 +3,8 @@
 package main
 
 import (
-	log "github.com/Sirupsen/logrus"
-	"github.com/taoh/gocelery"
+	log "github.com/sirupsen/logrus"
+	"github.com/blinkinglight/gocelery"
 )
 
 func main() {

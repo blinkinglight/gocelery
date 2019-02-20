@@ -2,7 +2,7 @@
 
 a golang port of [Celery](http://www.celeryproject.org/) distributed task engine. It supports executing and submitting tasks, and can interop with celery engine or celery python client.
 
-[![Build Status](https://travis-ci.org/taoh/gocelery.svg?branch=master)](https://travis-ci.org/taoh/gocelery)
+[![Build Status](https://travis-ci.org/blinkinglight/gocelery.svg?branch=master)](https://travis-ci.org/blinkinglight/gocelery)
 
 ## Features
 
@@ -16,11 +16,11 @@ a golang port of [Celery](http://www.celeryproject.org/) distributed task engine
 ## Installation
 
 ```
-go get http://github.com/taoh/gocelery
+go get http://github.com/blinkinglight/gocelery
 ```
 
 ## Example
-[demo/main.go](https://github.com/taoh/gocelery/blob/master/demo/main.go)
+[demo/main.go](https://github.com/blinkinglight/gocelery/blob/master/demo/main.go)
 
 ```go
 package main
@@ -29,8 +29,8 @@ import (
 	"math/rand"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/taoh/gocelery"
+	log "github.com/sirupsen/logrus"
+	"github.com/blinkinglight/gocelery"
 )
 
 // Adder worker
@@ -79,14 +79,14 @@ go run demo/main.go
 ```
 
 
-[demo/client.go](https://github.com/taoh/gocelery/blob/master/demo/main.go)
+[demo/client.go](https://github.com/blinkinglight/gocelery/blob/master/demo/main.go)
 
 ```go
 package main
 
 import (
-	log "github.com/Sirupsen/logrus"
-	"github.com/taoh/gocelery"
+	log "github.com/sirupsen/logrus"
+	"github.com/blinkinglight/gocelery"
 )
 
 func main() {
@@ -127,7 +127,7 @@ go run demo/client.go
 ```
 
 ## Documentation
-[Godoc](http://godoc.org/github.com/taoh/gocelery)
+[Godoc](http://godoc.org/github.com/blinkinglight/gocelery)
 
 ## Copyright and license
-[The MIT License](https://github.com/taoh/gocelery/blob/master/LICENSE)
+[The MIT License](https://github.com/blinkinglight/gocelery/blob/master/LICENSE)

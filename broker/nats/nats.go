@@ -3,8 +3,8 @@ package nats
 import (
 	"sync"
 
-	log "github.com/Sirupsen/logrus"
-	"github.com/taoh/gocelery/broker"
+	log "github.com/sirupsen/logrus"
+	"github.com/blinkinglight/gocelery/broker"
 
 	// nats broker
 	"github.com/apcera/nats"

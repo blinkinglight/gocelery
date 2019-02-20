@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	log "github.com/Sirupsen/logrus"
 	"github.com/robfig/cron"
+	log "github.com/sirupsen/logrus"
 
 	// import nats broker
-	_ "github.com/taoh/gocelery/broker/nats"
+	_ "github.com/blinkinglight/gocelery/broker/nats"
 	// import rabbitmq broker
-	_ "github.com/taoh/gocelery/broker/rabbitmq"
+	_ "github.com/blinkinglight/gocelery/broker/rabbitmq"
 	// import redis broker
-	_ "github.com/taoh/gocelery/broker/redis"
+	_ "github.com/blinkinglight/gocelery/broker/redis"
 	"github.com/twinj/uuid"
 )
 
